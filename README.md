@@ -26,6 +26,7 @@
 | 💻 **Кодер** | Повсякденне життя розробника | `packs/coder.json` |
 | 🐣 **Стажер** | Перший день — вже продакшн | `packs/stazher.json` |
 | 🐱 **Кіт** | Мурчу і працюю | `packs/cat.json` |
+| 📋 **PM** | Дедлайн був вчора | `packs/pm.json` |
 | 😌 **Все нормально** | Спокійна стоїчність | `packs/fine.json` |
 
 ### 💀 Думер
@@ -100,6 +101,18 @@ HIMARS o'clock...
 спить але контролює ситуацію...
 ```
 
+### 📋 PM
+
+> Дедлайн був вчора. А що по статусу?
+
+```
+а що по статусу?...
+дедлайн був вчора...
+перенесемо на наступний спринт...
+ще один мітинг...
+в джирі не бачу...
+```
+
 ### 😌 Все нормально
 
 > І не таке бачили. Тримаємось.
@@ -131,6 +144,7 @@ cd claude-code-spinner-ua
 /install-spinner-coder      — кодерський пак (дефолт)
 /install-spinner-stazher    — стажерський пак
 /install-spinner-cat        — котячий пак
+/install-spinner-pm         — PM пак
 ```
 
 Все. Спіннер зміниться одразу.
@@ -174,6 +188,7 @@ cd claude-code-spinner-ua
 /install-spinner-coder      — назад до коду
 /install-spinner-stazher    — назад до навчання
 /install-spinner-cat        — назад до муркотіння
+/install-spinner-pm         — назад до мітингів
 ```
 
 ## 📁 Структура
@@ -187,7 +202,8 @@ claude-code-spinner-ua/
 │   ├── install-spinner-memes.md
 │   ├── install-spinner-coder.md
 │   ├── install-spinner-stazher.md
-│   └── install-spinner-cat.md
+│   ├── install-spinner-cat.md
+│   └── install-spinner-pm.md
 ├── packs/
 │   ├── doomer.json         ← 90 фраз
 │   ├── fine.json           ← 90 фраз
@@ -195,7 +211,8 @@ claude-code-spinner-ua/
 │   ├── memes.json          ← 100 фраз
 │   ├── coder.json          ← 60 фраз
 │   ├── stazher.json        ← 32 фрази
-│   └── cat.json            ← 33 фрази
+│   ├── cat.json            ← 33 фрази
+│   └── pm.json             ← 35 фраз
 ├── spinners.json           ← дефолт (кодер)
 ├── CLAUDE.md
 └── README.md

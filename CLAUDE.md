@@ -1,6 +1,6 @@
 # claude-code-spinner-ua
 
-Кастомні українські спіннери для Claude Code. Сім паків.
+Кастомні українські спіннери для Claude Code. Вісім паків.
 
 ## Паки
 - `spinners.json` / `packs/coder.json` — кодерський пак (дефолт)
@@ -10,6 +10,7 @@
 - `packs/memes.json` — мемний пак (реальні українські меми)
 - `packs/stazher.json` — стажерський пак (перший день — вже продакшн)
 - `packs/cat.json` — котячий пак (мурчу і працюю)
+- `packs/pm.json` — PM пак (дедлайн був вчора)
 
 ## Slash-команди
 - `/install-spinner-doomer` — встановити думерський пак
@@ -19,6 +20,7 @@
 - `/install-spinner-coder` — встановити кодерський пак
 - `/install-spinner-stazher` — встановити стажерський пак
 - `/install-spinner-cat` — встановити котячий пак
+- `/install-spinner-pm` — встановити PM пак
 
 ## Як працює
 Slash-команди читають відповідний json і мерджать `spinnerVerbs` в `~/.claude/settings.json`, зберігаючи інші налаштування.
