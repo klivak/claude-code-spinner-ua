@@ -24,6 +24,8 @@
 | 🧠 **Філософ** | Сковорода б схвалив | `packs/filosof.json` |
 | 😂 **Меми** | Реальні українські меми | `packs/memes.json` |
 | 💻 **Кодер** | Повсякденне життя розробника | `packs/coder.json` |
+| 🐣 **Стажер** | Перший день — вже продакшн | `packs/stazher.json` |
+| 🐱 **Кіт** | Мурчу і працюю | `packs/cat.json` |
 | 😌 **Все нормально** | Спокійна стоїчність | `packs/fine.json` |
 
 ### 💀 Думер
@@ -74,6 +76,30 @@ HIMARS o'clock
 складаю пазл
 ```
 
+### 🐣 Стажер
+
+> Перший день — вже продакшн.
+
+```
+а де тут кнопка run
+я все зламав
+у всіх працює а в мене ні
+копіюю зі Stack Overflow
+ой а це продакшн був?
+```
+
+### 🐱 Кіт
+
+> Мурчу і працюю. Або ні.
+
+```
+не чіпай мене я думаю
+лапкою по ентеру
+з'їв баг
+полюю на курсор
+спить але контролює ситуацію
+```
+
 ### 😌 Все нормально
 
 > І не таке бачили. Тримаємось.
@@ -103,6 +129,8 @@ cd claude-code-spinner-ua
 /install-spinner-filosof   — філософський пак
 /install-spinner-memes     — мемний пак
 /install-spinner-coder    — кодерський пак
+/install-spinner-stazher  — стажерський пак
+/install-spinner-cat      — котячий пак
 ```
 
 Все. Спіннер зміниться одразу.
@@ -144,6 +172,8 @@ cd claude-code-spinner-ua
 /install-spinner-filosof   — назад до рефлексії
 /install-spinner-memes     — назад до мемів
 /install-spinner-coder    — назад до коду
+/install-spinner-stazher  — назад до навчання
+/install-spinner-cat      — назад до муркотіння
 ```
 
 ## 📁 Структура
@@ -155,13 +185,17 @@ claude-code-spinner-ua/
 │   ├── install-spinner-fine.md
 │   ├── install-spinner-filosof.md
 │   ├── install-spinner-memes.md
-│   └── install-spinner-coder.md
+│   ├── install-spinner-coder.md
+│   ├── install-spinner-stazher.md
+│   └── install-spinner-cat.md
 ├── packs/
 │   ├── doomer.json          ← 90 фраз
 │   ├── fine.json             ← 90 фраз
 │   ├── filosof.json          ← 90 фраз
 │   ├── memes.json            ← 100 фраз
-│   └── coder.json            ← 60 фраз
+│   ├── coder.json            ← 60 фраз
+│   ├── stazher.json          ← 32 фрази
+│   └── cat.json              ← 33 фрази
 ├── spinners.json             ← дефолт (думер)
 ├── CLAUDE.md
 └── README.md
