@@ -3,7 +3,7 @@
 Кастомні українські спіннери для Claude Code. Сім паків.
 
 ## Паки
-- `spinners.json` / `packs/doomer.json` — думерський пак (дефолт)
+- `spinners.json` / `packs/coder.json` — кодерський пак (дефолт)
 - `packs/fine.json` — пак "все нормально"
 - `packs/filosof.json` — філософський пак
 - `packs/memes.json` — мемний пак (реальні українські меми)

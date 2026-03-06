@@ -124,11 +124,11 @@ cd claude-code-spinner-ua
 Запусти Claude Code і виконай одну з команд:
 
 ```
-/install-spinner-doomer     — думерський пак (дефолт)
+/install-spinner-doomer     — думерський пак
 /install-spinner-fine       — пак "все нормально"
 /install-spinner-filosof    — філософський пак
 /install-spinner-memes      — мемний пак
-/install-spinner-coder      — кодерський пак
+/install-spinner-coder      — кодерський пак (дефолт)
 /install-spinner-stazher    — стажерський пак
 /install-spinner-cat        — котячий пак
 ```
@@ -189,14 +189,14 @@ claude-code-spinner-ua/
 │   ├── install-spinner-stazher.md
 │   └── install-spinner-cat.md
 ├── packs/
-│   ├── doomer.json          ← 90 фраз
-│   ├── fine.json             ← 90 фраз
-│   ├── filosof.json          ← 90 фраз
-│   ├── memes.json            ← 100 фраз
-│   ├── coder.json            ← 60 фраз
-│   ├── stazher.json          ← 32 фрази
-│   └── cat.json              ← 33 фрази
-├── spinners.json             ← дефолт (думер)
+│   ├── doomer.json       ← 90 фраз
+│   ├── fine.json          ← 90 фраз
+│   ├── filosof.json       ← 90 фраз
+│   ├── memes.json         ← 100 фраз
+│   ├── coder.json         ← 60 фраз
+│   ├── stazher.json       ← 32 фрази
+│   └── cat.json           ← 33 фрази
+├── spinners.json          ← дефолт (кодер)
 ├── CLAUDE.md
 └── README.md
 ```
