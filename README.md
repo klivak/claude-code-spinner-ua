@@ -108,6 +108,18 @@ cd claude-code-spinner-ua
 
 Якщо `settings.json` вже існує — додай ключ `spinnerVerbs`, не видаляючи інші налаштування.
 
+## 🗑️ Видалення
+
+Щоб повернути стандартний спіннер, видали ключ `spinnerVerbs` з `~/.claude/settings.json`:
+
+```json
+{
+  "spinnerVerbs": { ... }  ← видали цей блок
+}
+```
+
+Або відкрий Claude Code і скажи: «видали spinnerVerbs з settings.json».
+
 ## 🔄 Перемикання паків
 
 Просто запусти іншу slash-команду — вона замінить поточний спіннер:
