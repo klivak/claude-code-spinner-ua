@@ -189,14 +189,14 @@ claude-code-spinner-ua/
 │   ├── install-spinner-stazher.md
 │   └── install-spinner-cat.md
 ├── packs/
-│   ├── doomer.json        ← 90 фраз
+│   ├── doomer.json         ← 90 фраз
 │   ├── fine.json           ← 90 фраз
 │   ├── filosof.json        ← 90 фраз
 │   ├── memes.json          ← 100 фраз
 │   ├── coder.json          ← 60 фраз
 │   ├── stazher.json        ← 32 фрази
 │   └── cat.json            ← 33 фрази
-├── spinners.json          ← дефолт (кодер)
+├── spinners.json           ← дефолт (кодер)
 ├── CLAUDE.md
 └── README.md
 ```
