@@ -1,8 +1,8 @@
-# claude-code-spinner-ua
+# claude-code-spinner-ua 🇺🇦
 
-Заміна стандартних Thinking..., Analyzing..., Pondering... на щось людське. Українською.
+> Кастомні українські спіннери для Claude Code — заміна стандартних Thinking, Analyzing, Pondering на щось людське.
 
-П'ять паків — обирай під настрій.
+Обирай пак під настрій — від думерського тліну до реальних українських мемів.
 
 ![Claude Code Spinner UA](assets/into.png)
 
@@ -11,9 +11,9 @@
 Замість нудного `Thinking...` бачиш:
 
 ```
-⠋ мерж конфлікт душі
-⠙ все одно не задеплоїться
-⠸ кава скінчилась і сенс теж
+⠋ мерж конфлікт душі...
+⠙ все одно не задеплоїться...
+⠸ кава скінчилась і сенс теж...
 ```
 
 ## 📦 Паки
@@ -185,3 +185,7 @@ claude-code-spinner-ua/
 ## 📜 Ліцензія
 
 MIT — форкай, перекладай, додавай свої паки. Якщо зламаєш — то не баг, то характер, база, грунт, фундамент і гранітний камінь опенсорсу.
+
+---
+
+**Claude Code spinner** · **Claude Code custom spinner** · **Claude Code українською** · **spinner verbs** · **Claude Code customization** · **Claude Code UI** · **developer tools Ukraine**
