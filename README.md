@@ -124,13 +124,13 @@ cd claude-code-spinner-ua
 Запусти Claude Code і виконай одну з команд:
 
 ```
-/install-spinner-doomer    — думерський пак (дефолт)
-/install-spinner-fine      — пак "все нормально"
-/install-spinner-filosof   — філософський пак
-/install-spinner-memes     — мемний пак
-/install-spinner-coder    — кодерський пак
-/install-spinner-stazher  — стажерський пак
-/install-spinner-cat      — котячий пак
+/install-spinner-doomer     — думерський пак (дефолт)
+/install-spinner-fine       — пак "все нормально"
+/install-spinner-filosof    — філософський пак
+/install-spinner-memes      — мемний пак
+/install-spinner-coder      — кодерський пак
+/install-spinner-stazher    — стажерський пак
+/install-spinner-cat        — котячий пак
 ```
 
 Все. Спіннер зміниться одразу.
@@ -167,13 +167,13 @@ cd claude-code-spinner-ua
 Просто запусти іншу slash-команду — вона замінить поточний спіннер:
 
 ```
-/install-spinner-doomer    — назад до тліну
-/install-spinner-fine      — назад до спокою
-/install-spinner-filosof   — назад до рефлексії
-/install-spinner-memes     — назад до мемів
-/install-spinner-coder    — назад до коду
-/install-spinner-stazher  — назад до навчання
-/install-spinner-cat      — назад до муркотіння
+/install-spinner-doomer     — назад до тліну
+/install-spinner-fine       — назад до спокою
+/install-spinner-filosof    — назад до рефлексії
+/install-spinner-memes      — назад до мемів
+/install-spinner-coder      — назад до коду
+/install-spinner-stazher    — назад до навчання
+/install-spinner-cat        — назад до муркотіння
 ```
 
 ## 📁 Структура
