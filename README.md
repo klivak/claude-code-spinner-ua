@@ -2,7 +2,7 @@
 
 Заміна стандартних Thinking..., Analyzing..., Pondering... на щось людське. Українською.
 
-Чотири паки — обирай під настрій.
+П'ять паків — обирай під настрій.
 
 ![Claude Code Spinner UA](assets/into.png)
 
@@ -22,8 +22,9 @@
 |-----|---------|------|
 | 💀 **Думер** | Екзистенційна втома і легкий тлін | `packs/doomer.json` |
 | 🧠 **Філософ** | Сковорода б схвалив | `packs/filosof.json` |
-| 😌 **Все нормально** | Спокійна стоїчність | `packs/fine.json` |
 | 😂 **Меми** | Реальні українські меми | `packs/memes.json` |
+| 💻 **Кодер** | Повсякденне життя розробника | `packs/coder.json` |
+| 😌 **Все нормально** | Спокійна стоїчність | `packs/fine.json` |
 
 ### 💀 Думер
 
@@ -61,6 +62,18 @@ HIMARS o'clock
 бусік незламності виїжджає
 ```
 
+### 💻 Кодер
+
+> Без зайвого пафосу. Просто кодиш.
+
+```
+хм, а чому воно працює
+дай подумати
+копаю глибше
+є ідея
+складаю пазл
+```
+
 ### 😌 Все нормально
 
 > І не таке бачили. Тримаємось.
@@ -89,6 +102,7 @@ cd claude-code-spinner-ua
 /install-spinner-fine      — пак "все нормально"
 /install-spinner-filosof   — філософський пак
 /install-spinner-memes     — мемний пак
+/install-spinner-coder    — кодерський пак
 ```
 
 Все. Спіннер зміниться одразу.
@@ -129,6 +143,7 @@ cd claude-code-spinner-ua
 /install-spinner-fine      — назад до спокою
 /install-spinner-filosof   — назад до рефлексії
 /install-spinner-memes     — назад до мемів
+/install-spinner-coder    — назад до коду
 ```
 
 ## 📁 Структура
@@ -139,12 +154,14 @@ claude-code-spinner-ua/
 │   ├── install-spinner-doomer.md
 │   ├── install-spinner-fine.md
 │   ├── install-spinner-filosof.md
-│   └── install-spinner-memes.md
+│   ├── install-spinner-memes.md
+│   └── install-spinner-coder.md
 ├── packs/
 │   ├── doomer.json          ← 90 фраз
 │   ├── fine.json             ← 90 фраз
 │   ├── filosof.json          ← 90 фраз
-│   └── memes.json            ← 90 фраз
+│   ├── memes.json            ← 100 фраз
+│   └── coder.json            ← 60 фраз
 ├── spinners.json             ← дефолт (думер)
 ├── CLAUDE.md
 └── README.md
