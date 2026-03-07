@@ -1,5 +1,10 @@
 # claude-code-spinner-ua 🇺🇦
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/klivak/claude-code-spinner-ua)](https://github.com/klivak/claude-code-spinner-ua/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/klivak/claude-code-spinner-ua)](https://github.com/klivak/claude-code-spinner-ua/network)
+[![Made in Ukraine](https://img.shields.io/badge/Made_in-Ukraine-ffd700.svg?labelColor=0057b7)](https://stand-with-ukraine.pp.ua)
+
 <a href="https://ko-fi.com/klivak" target="_blank"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"></a>
 
 > Кастомні українські спіннери для Claude Code — заміна стандартних Thinking, Analyzing, Pondering на щось людське.
@@ -220,6 +225,22 @@ claude-code-spinner-ua/
 └── README.md
 ```
 
+## 🔧 Troubleshooting
+
+**Спіннер не змінився після встановлення**
+- Перезапусти Claude Code — зміни підхоплюються при старті
+
+**Slash-команда не знайдена**
+- Переконайся, що ти запустив Claude Code з директорії `claude-code-spinner-ua`
+- Перевір, що папка `.claude/commands/` існує і містить `.md` файли
+
+**settings.json зламався**
+- Відкрий `~/.claude/settings.json` і перевір валідність JSON (зайві коми, незакриті дужки)
+- Якщо все погано — видали ключ `spinnerVerbs` вручну, спіннер повернеться до дефолтного
+
+**Хочу повернути англійський спіннер**
+- Видали блок `spinnerVerbs` з `~/.claude/settings.json`
+
 ## ✏️ Свій пак
 
 Створи json у форматі:
@@ -234,6 +255,10 @@ claude-code-spinner-ua/
 ```
 
 Кинь у `packs/`, додай slash-команду в `.claude/commands/` — і готово.
+
+## 🤝 Contributing
+
+Хочеш додати свій пак або покращити існуючий? Читай [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## 📜 Ліцензія
 
