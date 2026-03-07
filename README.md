@@ -1,5 +1,7 @@
 # claude-code-spinner-ua 🇺🇦
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/klivak)
+
 > Кастомні українські спіннери для Claude Code — заміна стандартних Thinking, Analyzing, Pondering на щось людське.
 
 Обирай пак під настрій — від кодерського дзену до екзистенційного тліну.
