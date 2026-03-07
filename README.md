@@ -239,4 +239,8 @@ MIT — форкай, перекладай, додавай свої паки. Я
 
 ---
 
+☕ [Buy me a coffee](https://ko-fi.com/klivak) if this project helped you
+
+---
+
 **Claude Code spinner** · **Claude Code custom spinner** · **Claude Code українською** · **spinner verbs** · **Claude Code customization** · **Claude Code UI** · **developer tools Ukraine**
