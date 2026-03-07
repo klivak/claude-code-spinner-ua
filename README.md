@@ -1,6 +1,6 @@
 # claude-code-spinner-ua 🇺🇦
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/klivak)
+<a href="https://ko-fi.com/klivak" target="_blank"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"></a>
 
 > Кастомні українські спіннери для Claude Code — заміна стандартних Thinking, Analyzing, Pondering на щось людське.
 
