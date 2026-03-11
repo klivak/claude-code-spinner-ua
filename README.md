@@ -37,6 +37,8 @@
 | 🐱 **Кіт** | Мурчу і працюю | `packs/cat.json` |
 | 📋 **PM** | Дедлайн був вчора | `packs/pm.json` |
 | 😌 **Все нормально** | Спокійна стоїчність | `packs/fine.json` |
+| 💪 **Мотивація** | Підтримка і натхнення | `packs/motivation.json` |
+| 🚀 **Стартап** | Пивотимось і скейлимось | `packs/startup.json` |
 
 ### 💀 Думер
 
@@ -134,6 +136,30 @@ HIMARS o'clock...
 ще й не вечір...
 ```
 
+### 💪 Мотивація
+
+> Ти можеш. Я вірю. Код пишеться рядок за рядком.
+
+```
+ти можеш, я вірю...
+кожен баг — це досвід...
+навіть сеньйори гуглять...
+ти на правильному шляху...
+крок за кроком...
+```
+
+### 🚀 Стартап
+
+> Пивотимось. Скейлимось. MVP до вечора.
+
+```
+пивотимось...
+шукаю product-market fit...
+інвестор чекає демо...
+скейлимо на двох юзерів...
+монетизація — пізніше...
+```
+
 ## 🚀 Встановлення
 
 ### Через Claude Code (рекомендовано)
@@ -154,6 +180,8 @@ cd claude-code-spinner-ua
 /install-spinner-stazher    — стажерський пак
 /install-spinner-cat        — котячий пак
 /install-spinner-pm         — PM пак
+/install-spinner-motivation — мотиваційний пак
+/install-spinner-startup    — стартап пак
 ```
 
 Все. Якщо спіннер не змінився одразу — перезапусти термінал.
@@ -200,6 +228,8 @@ cd claude-code-spinner-ua
 /install-spinner-stazher    — назад до навчання
 /install-spinner-cat        — назад до муркотіння
 /install-spinner-pm         — назад до мітингів
+/install-spinner-motivation — назад до натхнення
+/install-spinner-startup    — назад до пивотів
 ```
 
 ## 📁 Структура
@@ -214,7 +244,9 @@ claude-code-spinner-ua/
 │   ├── install-spinner-coder.md
 │   ├── install-spinner-stazher.md
 │   ├── install-spinner-cat.md
-│   └── install-spinner-pm.md
+│   ├── install-spinner-pm.md
+│   ├── install-spinner-motivation.md
+│   └── install-spinner-startup.md
 ├── packs/
 │   ├── doomer.json         ← 90 фраз
 │   ├── fine.json           ← 90 фраз
@@ -223,7 +255,9 @@ claude-code-spinner-ua/
 │   ├── coder.json          ← 60 фраз
 │   ├── stazher.json        ← 32 фрази
 │   ├── cat.json            ← 33 фрази
-│   └── pm.json             ← 35 фраз
+│   ├── pm.json             ← 35 фраз
+│   ├── motivation.json     ← 40 фраз
+│   └── startup.json        ← 40 фраз
 ├── spinners.json           ← дефолт (кодер)
 ├── CLAUDE.md
 └── README.md
